@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="title">
+  <title id="title">PinCam</title>
+  <!-- Static version of pincam-logo-animated.svg, for the app icon. -->
+  <defs>
+    <path id="pin-shape" d="M 367 555 A 205 205 0 1 1 657 555 L 530 682 Q 512 700 494 682 Z"/>
+    <clipPath id="pin-clip"><use href="#pin-shape"/></clipPath>
+    <path id="blade-edge" d="M 66 -10 Q 102 220 56 440" fill="none" stroke="#F2F2F4" stroke-width="20" stroke-linecap="round"/>
+  </defs>
+  <rect width="1024" height="1024" rx="72" fill="#F2F2F4"/>
+  <use href="#pin-shape" fill="#6A5AE0"/>
+  <g clip-path="url(#pin-clip)">
+    <g transform="translate(512 410)">
+      <use href="#blade-edge" transform="rotate(15)"/>
+      <use href="#blade-edge" transform="rotate(75)"/>
+      <use href="#blade-edge" transform="rotate(135)"/>
+      <use href="#blade-edge" transform="rotate(195)"/>
+      <use href="#blade-edge" transform="rotate(255)"/>
+      <use href="#blade-edge" transform="rotate(315)"/>
+    </g>
+    <circle cx="512" cy="410" r="78" fill="#F2F2F4"/>
+  </g>
+  <circle cx="512" cy="410" r="58" fill="#16161A"/>
+</svg>
